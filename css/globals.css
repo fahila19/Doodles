@@ -1,0 +1,43 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "Courier-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/courier_[allfont.net].ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.group-100 {
+  flex-direction: column;
+  min-height: 219px;
+  transform: rotate(-180.00deg);
+  width: 13px;
+}
+
+.group {
+  align-items: flex-start;
+  display: flex;
+}

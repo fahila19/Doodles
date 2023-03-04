@@ -1,0 +1,16 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --smalt: #0b3195;
+  --white: #ffffff;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 14px;
+  --font-size-s: 10px;
+  --font-size-xl: 21px;
+  --font-size-xxl: 25px;
+  --font-size-xxxl: 30px;
+  --font-size-xxxxl: 40px;
+ 
+  --font-family-courier-regular: "Courier-Regular", Helvetica;
+}
